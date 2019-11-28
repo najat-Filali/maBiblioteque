@@ -10,33 +10,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        
-        <div id="form-add-book" >
-            <form action="#" method="GET" id="fab" name="fab" >
-                <fieldset>
-                    <div class="form-group">
-                        <label for="titre" name="titre" >Saisie livre </label>
-                        <input type="text" class="form-control" id="titre" placeholder="Entrer titre ">
-                    </div>
-                    <div class="form-group">
-                        <label for="prix" name="prix">Prix </label>
-                        <input type="text" class="form-control" id="prix" placeholder="Entrer prix">
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input">
-                        <label class="disp" name="disp">Disponible </label>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                   
-                </fieldset> <br>
-            </form>
-        </div>
+    <div id="form-add-book" >
+        <form action="#" method="GET" id="fab" name="fab" >
+            <fieldset>
+                <div class="form-group">
+                    <label for="titre" name="titre" >Saisie livre </label>
+                    <input type="text" class="form-control" id="titre" placeholder="Entrer titre ">
+                </div>
+                <div class="form-group">
+                    <label for="prix" name="prix">Prix </label>
+                    <input type="text" class="form-control" id="prix" placeholder="Entrer prix">
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" name="disp">
+                    <label class="disp">Disponible </label>
+                    <button type="submit" name="disp">Submit</button>
+                </div>
+            </fieldset> <br>
+        </form>
+    </div>
 
-        <article id="bibl">
-            <h1>Ma bibliothèque</h1>
-        </article>
+    <article id="bibl">
+        <h1>Ma bibliothèque</h1>
+    </article>
     
 
-      <script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
